@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb52f7e20de3734da451408a52b0187, type: 3}
+  m_Name: SgtDreyarGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: SgtDreyar
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 493ea9c6-0cd9-4b77-a040-b5ef4c36fea6
+    <Name>k__BackingField: Brief
+    <Position>k__BackingField: {x: 2012, y: 500}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 536f2685-714d-422e-a005-61393973bb30
+    <Name>k__BackingField: Start
+    <Text>k__BackingField: I assume you are the mercanary captain?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yep
+      <NodeID>k__BackingField: 1d1e9b36-4e15-43f1-ad8f-e5ee3e3cec84
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 382, y: 293}
+  - <ID>k__BackingField: 1d1e9b36-4e15-43f1-ad8f-e5ee3e3cec84
+    <Name>k__BackingField: Dialogue1
+    <Text>k__BackingField: I would expect a captain to be more punctual.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Sorry
+      <NodeID>k__BackingField: b5b9bcaa-d8d3-41b8-b432-c255013eb97f
+    - <Text>k__BackingField: Had some trouble getting here
+      <NodeID>k__BackingField: f9f79187-98d6-4efe-bfbb-d6a7566d6ef6
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 724, y: 293}
+  - <ID>k__BackingField: f9f79187-98d6-4efe-bfbb-d6a7566d6ef6
+    <Name>k__BackingField: Touble
+    <Text>k__BackingField: No excuses.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Sorry
+      <NodeID>k__BackingField: b5b9bcaa-d8d3-41b8-b432-c255013eb97f
+    - <Text>k__BackingField: Whatever
+      <NodeID>k__BackingField: 6b28e7a7-2e44-479d-bad2-5e6c360e3359
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1140, y: 442}
+  - <ID>k__BackingField: b5b9bcaa-d8d3-41b8-b432-c255013eb97f
+    <Name>k__BackingField: ApologyAccepted
+    <Text>k__BackingField: Apology accepted. Have you read the brief we sent you?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 078a66d2-762a-476e-a3e2-589e1ec68057
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 8b203cdc-f349-436a-b1fd-aa4c125e4628
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1447, y: 293}
+  - <ID>k__BackingField: 6b28e7a7-2e44-479d-bad2-5e6c360e3359
+    <Name>k__BackingField: HateMercinaries
+    <Text>k__BackingField: '*sigh* Mercinaries..... Have you read the brief we sent
+      you?'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 078a66d2-762a-476e-a3e2-589e1ec68057
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 8b203cdc-f349-436a-b1fd-aa4c125e4628
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1447, y: 535}
+  - <ID>k__BackingField: 8b203cdc-f349-436a-b1fd-aa4c125e4628
+    <Name>k__BackingField: NoBrief
+    <Text>k__BackingField: 'You haven''t read the brief?! Mercinaries... '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ....
+      <NodeID>k__BackingField: 9ded14cc-7224-4443-873f-9147512a2382
+    <GroupID>k__BackingField: 493ea9c6-0cd9-4b77-a040-b5ef4c36fea6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2037, y: 559}
+  - <ID>k__BackingField: 9ded14cc-7224-4443-873f-9147512a2382
+    <Name>k__BackingField: BriefExplain
+    <Text>k__BackingField: 'The minining facility went dark 4 days ago and have not
+      transmitted any data since. When we arrived we noticed an undocumented ship
+      in docking port A. Scanning the ship revealed undocumented weaponry; our engineer
+      has estimated the distance the weaponry could attack from and we are staying
+      a safe beyond that. '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '[Continue]'
+      <NodeID>k__BackingField: 03854909-75c0-491a-96fb-251a4e9c4eb1
+    <GroupID>k__BackingField: 493ea9c6-0cd9-4b77-a040-b5ef4c36fea6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2037, y: 801}
+  - <ID>k__BackingField: 03854909-75c0-491a-96fb-251a4e9c4eb1
+    <Name>k__BackingField: BriefUnderstand
+    <Text>k__BackingField: "The facility is govement owned and is primarily used
+      to mine metal ores and transport them to a refinary elseware. \nUnfortunatly
+      the police force has been have recruitment issues and so we are contracting
+      mercinaries to help, and so you are required to investigate."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yes
+      <NodeID>k__BackingField: 078a66d2-762a-476e-a3e2-589e1ec68057
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: 94f7ffc0-da76-4b08-a13c-820d0d32e4a8
+    <GroupID>k__BackingField: 493ea9c6-0cd9-4b77-a040-b5ef4c36fea6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2037, y: 1093}
+  - <ID>k__BackingField: 94f7ffc0-da76-4b08-a13c-820d0d32e4a8
+    <Name>k__BackingField: Dialogue Name
+    <Text>k__BackingField: I'll resend you the document. Just get going.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '[Leave]'
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2815, y: 1132}
+  - <ID>k__BackingField: 078a66d2-762a-476e-a3e2-589e1ec68057
+    <Name>k__BackingField: YesBrief
+    <Text>k__BackingField: Good. I'll send you the docking override key. I'll wait
+      for your report.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '[Leave]'
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2679, y: 192}
+  <OldGroupNames>k__BackingField:
+  - Brief
+  <OldUngroupedNodeNames>k__BackingField:
+  - Start
+  - Dialogue1
+  - Touble
+  - ApologyAccepted
+  - HateMercinaries
+  - Dialogue Name
+  - YesBrief
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Brief
+      Value:
+      - NoBrief
+      - BriefExplain
+      - BriefUnderstand

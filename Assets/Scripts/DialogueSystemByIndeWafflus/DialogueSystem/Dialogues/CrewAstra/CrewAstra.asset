@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5029bb661b730a444a911f8a4ee13d1b, type: 3}
+  m_Name: CrewAstra
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: CrewAstra
+  <DialogueGroups>k__BackingField:
+    list: []
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 45d1d9df53c82554e8cdfb29c3ffbeb5, type: 2}
+  - {fileID: 11400000, guid: 6dd4368f045e89d429b1622f3cc7cef8, type: 2}
+  - {fileID: 11400000, guid: f56ae9ec7654a6d4b938731bb08d9b9f, type: 2}

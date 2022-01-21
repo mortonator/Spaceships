@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5029bb661b730a444a911f8a4ee13d1b, type: 3}
+  m_Name: SgtDreyar
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: SgtDreyar
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: de885dccfb9599449b0dcfa78368df1f, type: 2}
+      Value:
+      - {fileID: 11400000, guid: f30d6ea8dc857dc48ba0304a88378143, type: 2}
+      - {fileID: 11400000, guid: 36a3988a42f28a84d9ca5015acb18cc6, type: 2}
+      - {fileID: 11400000, guid: b1808821e12d9f8468f8342454121d31, type: 2}
+  <UngroupedDialogues>k__BackingField:
+  - {fileID: 11400000, guid: 302e04ad3480bd14093619670ad8dae4, type: 2}
+  - {fileID: 11400000, guid: c8220ea43c7e5334f92f0f61956a3c25, type: 2}
+  - {fileID: 11400000, guid: 90341df4d40d639419dd901f62970ab1, type: 2}
+  - {fileID: 11400000, guid: d50c87740ecbd16439f3e03b2951a970, type: 2}
+  - {fileID: 11400000, guid: 234ad416c697ee44fa0258bd997b1efe, type: 2}
+  - {fileID: 11400000, guid: 29ea599f1c8d52f4285c05371baa704e, type: 2}
+  - {fileID: 11400000, guid: dd68c39b6d0bb334e90be558d2b8c852, type: 2}

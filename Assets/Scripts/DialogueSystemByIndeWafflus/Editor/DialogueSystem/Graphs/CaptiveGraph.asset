@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb52f7e20de3734da451408a52b0187, type: 3}
+  m_Name: CaptiveGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Captive
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <Name>k__BackingField: Introductions
+    <Position>k__BackingField: {x: 81, y: 171}
+  - <ID>k__BackingField: 601a0979-b355-4a92-91f3-a467c4624581
+    <Name>k__BackingField: SafeOnBoard
+    <Position>k__BackingField: {x: 493, y: 832}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 17af8b49-f237-4d5c-91b1-43042ab555d0
+    <Name>k__BackingField: Start
+    <Text>k__BackingField: "\rWhat else do you want?"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: What?
+      <NodeID>k__BackingField: 12f12f07-d3d9-48eb-a287-bcb76100d696
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 106, y: 230}
+  - <ID>k__BackingField: 12f12f07-d3d9-48eb-a287-bcb76100d696
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: "We don't have anything else!\r"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'We''re not here to take your stuff '
+      <NodeID>k__BackingField: a55e5270-4856-471f-85de-d4c058a722a1
+    - <Text>k__BackingField: 'I think you''ve confused us with someone else '
+      <NodeID>k__BackingField: a55e5270-4856-471f-85de-d4c058a722a1
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 447, y: 230}
+  - <ID>k__BackingField: a55e5270-4856-471f-85de-d4c058a722a1
+    <Name>k__BackingField: 2
+    <Text>k__BackingField: 'You''re not with the pirates?
+
+'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'No, we''re here with the police. '
+      <NodeID>k__BackingField: 9b0157d8-b01f-4e07-b57e-7529fa92220e
+    - <Text>k__BackingField: 'Pirates? '
+      <NodeID>k__BackingField: 33b517f1-94fa-4569-bc0b-1183ae4c0533
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 976, y: 230}
+  - <ID>k__BackingField: 9b0157d8-b01f-4e07-b57e-7529fa92220e
+    <Name>k__BackingField: Police
+    <Text>k__BackingField: 'The police? You''re here to help us?
+
+'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'We are '
+      <NodeID>k__BackingField: a14e495c-4155-4d55-9d37-21f7076b656d
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1473, y: 230}
+  - <ID>k__BackingField: a14e495c-4155-4d55-9d37-21f7076b656d
+    <Name>k__BackingField: Police1
+    <Text>k__BackingField: "Thank you!\r"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1866, y: 230}
+  - <ID>k__BackingField: 6ea585d0-3166-4522-978e-9610d33a2ab9
+    <Name>k__BackingField: Pirates2
+    <Text>k__BackingField: "Resources, equipment, and the ores we've mined. \r\n"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'Ores? Why would they take ores? '
+      <NodeID>k__BackingField: 14ae37e3-35b7-4851-ade6-501959b8b1e3
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1866, y: 495}
+  - <ID>k__BackingField: 14ae37e3-35b7-4851-ade6-501959b8b1e3
+    <Name>k__BackingField: Pirates3
+    <Text>k__BackingField: 'A lot of the ores are very valueable and would probably
+      be harder to steal once refined. '
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2322, y: 495}
+  - <ID>k__BackingField: 33b517f1-94fa-4569-bc0b-1183ae4c0533
+    <Name>k__BackingField: Pirates
+    <Text>k__BackingField: 'A crew of pirates came and started taking our stuff
+
+'
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'What stuff? '
+      <NodeID>k__BackingField: 6ea585d0-3166-4522-978e-9610d33a2ab9
+    <GroupID>k__BackingField: 14cd581d-5fa2-4bae-a8ae-9ef0ec868d12
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1473, y: 495}
+  - <ID>k__BackingField: 8e726d61-5a68-4b38-82bf-2846be89bd38
+    <Name>k__BackingField: Start
+    <Text>k__BackingField: Thank you for helping me.
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'No problem. '
+      <NodeID>k__BackingField: 5e071f61-e6fc-41b9-b76b-ac90a53fab66
+    <GroupID>k__BackingField: 601a0979-b355-4a92-91f3-a467c4624581
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 518, y: 891}
+  - <ID>k__BackingField: 5e071f61-e6fc-41b9-b76b-ac90a53fab66
+    <Name>k__BackingField: 1
+    <Text>k__BackingField: What happens now?
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: I don't know
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 601a0979-b355-4a92-91f3-a467c4624581
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 865, y: 891}
+  <OldGroupNames>k__BackingField:
+  - Introductions
+  - SafeOnBoard
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Introductions
+      Value:
+      - Start
+      - 1
+      - 2
+      - Police
+      - Police1
+      - Pirates2
+      - Pirates3
+      - Pirates
+    - Key: SafeOnBoard
+      Value:
+      - Start
+      - 1

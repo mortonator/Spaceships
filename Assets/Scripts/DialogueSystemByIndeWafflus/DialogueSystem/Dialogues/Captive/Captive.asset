@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5029bb661b730a444a911f8a4ee13d1b, type: 3}
+  m_Name: Captive
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Captive
+  <DialogueGroups>k__BackingField:
+    list:
+    - Key: {fileID: 11400000, guid: 898c7a4227c19194abb1a383087f8a35, type: 2}
+      Value:
+      - {fileID: 11400000, guid: ad9611919e499b04787cc41655491521, type: 2}
+      - {fileID: 11400000, guid: 08ff51e6a5828f34abb7c194767a0359, type: 2}
+      - {fileID: 11400000, guid: 7ae1ae204f3d91f428cd41572066d1d3, type: 2}
+      - {fileID: 11400000, guid: a9b918b69104ed849874e5266a08777a, type: 2}
+      - {fileID: 11400000, guid: 5e2013371153e634d9692c46ad404690, type: 2}
+      - {fileID: 11400000, guid: 43c336200874ccf46b0003486d29a166, type: 2}
+      - {fileID: 11400000, guid: 888a28d02de68a34da1b67d40f917a0b, type: 2}
+      - {fileID: 11400000, guid: 9c377a4da84c95c488627efe71887011, type: 2}
+    - Key: {fileID: 11400000, guid: 1bb135c7260ae7e4486b6f66067ee4ed, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 86b2f46f0ac8c8f478a671b65b352bbe, type: 2}
+      - {fileID: 11400000, guid: b6f66ca05f8e07c439c8169266570a3e, type: 2}
+  <UngroupedDialogues>k__BackingField: []

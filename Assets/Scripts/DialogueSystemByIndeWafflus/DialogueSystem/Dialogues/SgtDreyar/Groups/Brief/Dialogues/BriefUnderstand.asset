@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783ad70c3f8c5e04f98b67fd1c073b8b, type: 3}
+  m_Name: BriefUnderstand
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: BriefUnderstand
+  <Text>k__BackingField: "The facility is govement owned and is primarily used to
+    mine metal ores and transport them to a refinary elseware. \nUnfortunatly the
+    police force has been have recruitment issues and so we are contracting mercinaries
+    to help, and so you are required to investigate."
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: Yes
+    <NextChoice>k__BackingField: {fileID: 11400000, guid: dd68c39b6d0bb334e90be558d2b8c852, type: 2}
+  - <Text>k__BackingField: No
+    <NextChoice>k__BackingField: {fileID: 11400000, guid: 29ea599f1c8d52f4285c05371baa704e, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

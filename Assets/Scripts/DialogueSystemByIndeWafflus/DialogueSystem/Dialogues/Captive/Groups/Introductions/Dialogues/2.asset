@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783ad70c3f8c5e04f98b67fd1c073b8b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: 2
+  <Text>k__BackingField: 'You''re not with the pirates?
+
+'
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: 'No, we''re here with the police. '
+    <NextChoice>k__BackingField: {fileID: 11400000, guid: a9b918b69104ed849874e5266a08777a, type: 2}
+  - <Text>k__BackingField: 'Pirates? '
+    <NextChoice>k__BackingField: {fileID: 11400000, guid: 9c377a4da84c95c488627efe71887011, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0
